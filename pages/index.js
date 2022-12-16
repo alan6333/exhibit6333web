@@ -11,15 +11,15 @@ export default function Home() {
       </Head>
 
       <main>
-      <Image src="/images/background.jpg"
+      <div class="" >Exhibit 6333</div>
+      {/* <Image src="/images/background.jpg"
         unoptimized={true}
-        alt="Your Name"
+        alt="background"
         fill
         priority
         sizes="100vw"
         style={{
-          
-        }} />
+        }} /> */}
       </main>
 
     </div>
