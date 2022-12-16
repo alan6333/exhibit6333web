@@ -12,14 +12,14 @@ export default function Home() {
 
       <main>
       <div class="" >Exhibit 6333</div>
-      {/* <Image src="/images/background.jpg"
+      <Image src="/images/background.jpg"
         unoptimized={true}
         alt="background"
         fill
         priority
         sizes="100vw"
         style={{
-        }} /> */}
+        }} />
       </main>
 
     </div>
