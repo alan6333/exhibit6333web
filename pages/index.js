@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
       <div class="" >Exhibit 6333</div>
-      <Image src="https://github.com/alan6333/exhibit6333web/blob/main/public/images/background.jpg"
+      <Image src="https://storage6333.s3.us-east-2.amazonaws.com/background.jpg"
         unoptimized={true}
         alt="background"
         fill
