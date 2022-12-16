@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.css'
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,8 +11,17 @@ export default function Home() {
       </Head>
 
       <main>
+      <Image src="/images/background.jpg"
+        unoptimized={true}
+        alt="Your Name"
+        fill
+        priority
+        sizes="100vw"
+        style={{
+          
+        }} />
       </main>
 
     </div>
-  )
+  );
 }
