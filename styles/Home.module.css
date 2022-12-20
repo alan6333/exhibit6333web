@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;

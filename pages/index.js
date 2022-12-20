@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <Background /> 
+      <Background /> 
     </div>
   );
 }
