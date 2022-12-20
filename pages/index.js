@@ -11,10 +11,8 @@ export default function Home() {
         <title>Exhibit 6333</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Background></Background>
       <Header></Header>
-      
+      <Background /> 
     </div>
   );
 }
