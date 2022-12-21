@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function FirstPost() {
     return (
       <>
-      {/* https://fonts.google.com/share?selection.family=Urbanist:wght@100 */}
         <Head>
           <title>First Post</title>
         </Head>
