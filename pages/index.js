@@ -1,5 +1,3 @@
-
-
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from "next/image";
@@ -14,15 +12,6 @@ export default function Home() {
           <title>Exhibit-6333</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
-          <Header></Header>
-        </div>
-        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
-          <Header></Header>
-        </div>
-        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
-          <Header></Header>
-        </div>
         <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
           <Header></Header>
         </div>
