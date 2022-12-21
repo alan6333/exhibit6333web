@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: (theme) => ({
         'hero': "url('../public/images/backgroundrepeated.png')",
       }),
+      backgroundSize: {
+        '20%': '20%',
+        '12': '2rem'
+      }
     },
   },
   plugins: [],

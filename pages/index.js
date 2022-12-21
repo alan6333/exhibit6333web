@@ -14,7 +14,16 @@ export default function Home() {
           <title>Exhibit-6333</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div class='-z-0 h-screen bg-hero bg-repeat bg-local'>
+        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
+          <Header></Header>
+        </div>
+        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
+          <Header></Header>
+        </div>
+        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
+          <Header></Header>
+        </div>
+        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
           <Header></Header>
         </div>
       </div>
