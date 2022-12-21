@@ -16,7 +16,6 @@ export default function App({ Component, pageProps }) {
                 --font-base: ${UrbanistFont.style.fontFamily};
                 }
             `}</style>
-            <div class='-z-0 h-full bg-hero bg-repeat bg-transparent'></div>
             <Component {...pageProps} />
         </main>
       );
