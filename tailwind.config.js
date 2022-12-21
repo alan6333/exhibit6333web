@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      backgroundImage: (theme) => ({
+        'hero': "url('../public/images/backgroundrepeated.png')",
+      }),
     },
   },
   plugins: [],
