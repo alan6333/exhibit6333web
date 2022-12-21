@@ -11,6 +11,9 @@ module.exports = {
         'hero': "url('../public/images/backgroundrepeated.png')",
       }),
       backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
         '20%': '20%',
         '12': '2rem'
       }

@@ -12,7 +12,7 @@ export default function Home() {
           <title>Exhibit-6333</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-auto'>
+        <div class='-z-0 h-screen bg-hero bg-repeat bg-local bg-20%'>
           <Header></Header>
         </div>
       </div>
