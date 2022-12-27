@@ -1,6 +1,3 @@
-import styles from '../styles/Home.module.css'
-import localFont from '@next/font/local'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
 
 export default () => {
