@@ -29,6 +29,9 @@ module.exports = {
       '5.5': ['3.3575rem'],
       '6xl': ['3.663rem']
     },
+    color: {
+      'colorRed': '#00ff00;'
+    }
   },
   plugins: [],
 }

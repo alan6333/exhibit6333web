@@ -99,3 +99,8 @@
 .minBackgroundScreen{
   height: fit-content;
 } 
+
+.redText{
+  font-style: italic;
+  color: red;
+}
