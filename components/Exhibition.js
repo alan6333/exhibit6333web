@@ -10,7 +10,7 @@ export default () => {
                 width={400}
                 height={400}
                 quality={100}
-                className="min-h-min"
+                className=""
                 >
                 </Image>
                 <div className="py-3 text-3xl UrbanistFont.localFont text-center">Bedroom Beatbox EP</div>
