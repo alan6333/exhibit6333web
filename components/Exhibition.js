@@ -7,6 +7,8 @@ export default () => {
                 <Image 
                 src="/../public/images/BedroomBeatboxEP.png"
                 alt="Bedroom Beatbox EP"
+                unoptimized={true}
+                priority
                 width={400}
                 height={400}
                 className=""
