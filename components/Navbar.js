@@ -9,7 +9,7 @@ export default () => {
                     <Link href='/'>Exhibition</Link>
                 </li>
                 <li className='px-10 inline text-3xl UrbanistFont.localFont text-neutral-400 hover:text-gray-300 hover:font-semibold'>
-                    <Link href='/artist'>Artist</Link>
+                    <Link href='/artist'>Artist6333</Link>
                 </li>
                 <li className='px-10 inline text-3xl UrbanistFont.localFont text-neutral-400 hover:text-gray-300 hover:font-semibold'>
                     <Link href='/subscribe'>Subscribe</Link>
