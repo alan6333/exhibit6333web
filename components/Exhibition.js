@@ -5,7 +5,7 @@ export default () => {
     <div className='-z-0 h-screen w-fit min-w-full bg-hero bg-repeat bg-local bg-20%'>
         <div className=' py-10 grid place-content-center'>
                 <Image 
-                src='https://storage6333.s3.us-east-2.amazonaws.com/EP+Cover+real.png'
+                src='https://storage6333.s3.us-east-2.amazonaws.com/BedroomBeatboxEP.png'
                 alt="Bedroom Beatbox EP"
                 width={400}
                 height={400}
