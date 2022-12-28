@@ -1,4 +1,5 @@
 import Image from "next/legacy/image";
+import Link from 'next/link'
 
 export default () => {
     return (
@@ -65,12 +66,11 @@ export default () => {
                 alt="Bedroom Beatbox EP"
                 width={400}
                 height={400}
-                // className="transition-all hover:scale-y-110 hover:duration-75"
+                className="transition-all hover:h-fit  hover:duration-75"
                 >
                 </Image>
                 <div className="py-3 text-3xl UrbanistFont.localFont text-center">Bedroom Beatbox EP</div>
                 <div className="text-1xl UrbanistFont.localFont italic text-center">2014-2020</div>
-                <br />
                 <br />
                 <br />
         </div>

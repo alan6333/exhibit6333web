@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import Navbar from '../components/Navbar'
 import Exhibition from '../components/Exhibition';
+import Logo from '../components/Logo';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <Header />
           <Navbar />
           <Exhibition />
+          <Logo />
         </div>
       </div>
     </>
