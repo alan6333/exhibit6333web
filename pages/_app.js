@@ -1,8 +1,5 @@
 import React from 'react';
 import "../styles/globals.css";
-import Background from '../components/Background';
-import FirstPost from './posts/post1';
-// pages/_app.js
 import localFont from '@next/font/local'
 
 // Font files can be colocated inside of `pages`
