@@ -16,7 +16,7 @@ module.exports = {
         'contain': 'contain',
         '20%': '20%',
         '12': '2rem'
-      }
+      },
     },
     fontSize: {
       'sm': '0.8rem',
@@ -31,7 +31,10 @@ module.exports = {
     },
     color: {
       'colorRed': '#00ff00;'
-    }
+    },
+    // inset: {
+    //   '58-333': '42%'
+    // }
   },
   plugins: [],
 }
