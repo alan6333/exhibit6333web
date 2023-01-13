@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Logo from '../components/Logo';
 
 export default () => {
     return (
@@ -7,6 +8,7 @@ export default () => {
                 <div className="text-5xl UrbanistFont.localFont transition-all hover:text-5.5 hover:duration-75">Subscribe</div>
             </div>
             <Navbar />
+            <Logo />
         </div>
     );
   }

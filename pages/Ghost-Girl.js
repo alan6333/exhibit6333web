@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import React from 'react'
 import ReactPlayer from 'react-player'
 import { useState, useEffect} from 'react';
+import Logo from '../components/Logo';
 
 
 export default () => {
@@ -106,7 +107,7 @@ export default () => {
               <div className="inline-block py-3 relative text-3xl UrbanistFont.localFont">Lyrics</div>
           </div>
 
-          <div className='block mx-36 pb-60'>
+          <div className='block mx-36'>
               <p className="relative right-3 text-xl italic UrbanistFont.localFont">(Alan)</p>
               <p className="text-xl italic UrbanistFont.localFont">Ghost Girl don't leave</p>
               <p className="text-xl italic UrbanistFont.localFont">If our eyes collide, then won't you catch me here?</p>
@@ -141,7 +142,8 @@ export default () => {
               <p className="text-xl italic UrbanistFont.localFont">Stop before the lines blurred right through...</p>
               <p className="text-xl italic UrbanistFont.localFont">I'll think of you</p>
           </div>
-
+          <br />
+          <Logo />
     </div>
     );
   }

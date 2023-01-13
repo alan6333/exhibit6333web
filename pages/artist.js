@@ -3,6 +3,7 @@ import localFont from '@next/font/local'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Image from "next/image";
+import Logo from '../components/Logo';
 
 export default () => {
     return (
@@ -11,6 +12,7 @@ export default () => {
                 <div className=" text-5xl UrbanistFont.localFont transition-all hover:text-5.5 hover:duration-75">Alan Alejandro Coronado</div>
             </div>
             <Navbar />
+            <Logo />
         </div>
     )
   }
