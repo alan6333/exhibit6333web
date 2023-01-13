@@ -40,6 +40,9 @@ export default () => {
           <div className=''>
                 {isSSR ? null: <ReactPlayer controls url={"https://storage6333.s3.us-east-2.amazonaws.com/Piano+(online-video-cutter.com).mp4"} />}
           </div>
+          <p className="indent-10 mr-10 py-10 text-xl UrbanistFont.localFont">
+              This song started by me disrespecting one of the pianos in the practice rooms at my school until I got some good sounds. 
+          </p>
     </div>
     );
   }
