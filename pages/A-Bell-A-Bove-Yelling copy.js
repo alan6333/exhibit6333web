@@ -3,20 +3,12 @@ import Navbar from '../components/Navbar'
 import Header from '../components/Header';
 import Image from "next/legacy/image";
 import { useRouter } from 'next/router';
-import React from 'react'
-import ReactPlayer from 'react-player'
-import { useState, useEffect} from 'react';
 
 
 export default () => {
     {/* Get the current route */}
     const router = useRouter();
     const currentRoute = router.pathname;
-
-    const [isSSR, setIsSSR] = useState(true);
-    useEffect(() => {
-      setIsSSR(false);
-  }, []);
 
     return (
 
@@ -55,49 +47,18 @@ export default () => {
           </div>
           <div className='block relative text-left mx-10'>
               <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-              This song started by me <Link href='/Disrespect' className=" font-extrabold text-yellow-900 hover:text-stone-500 text-xl UrbanistFont.localFont">disrespecting</Link> one of the pianos in the practice rooms at my school until I got some good sounds. 
-                Those practice rooms at school are never my preferred spot for making music because sometimes I can hear other people singing/practicing,
+                This song started by me playing around with one of the pianos in one of the practice rooms at my school. 
+                Those practice rooms at school are never usually my preferred spot for making music because sometimes I can hear people,
                 which means they can hear me, and I don't like it when people can hear me expirement (though I cannot wait to perform live one day).
-                This day was one of those days where I needed to escape, I felt like
-                I had been holding my breath for days and I just needed to exhale -breath fresh air. 
-                And so I ended up in a practice room at around 8AM during class hours.  
-                              
-                {/* <Image 
-                            src='https://storage6333.s3.us-east-2.amazonaws.com/ghost+girl+art+pencil.jpg'
-                            alt="Ghost Girl Cover Art"
-                            width={300}
-                            height={400}
-                            className=' inline-block'
-                            >
-                    </Image> */}
-              </p>
-              
-              
-              {/* <audio controls className=' w-1/6' controlsList='nodownload noplaybackrate' src="https://storage6333.s3.us-east-2.amazonaws.com/Disrespect.mp3"> Your browser does not support the <code>audio</code> element. </audio> */}
-              <br/>
-              <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-              I cannot read music (yet) so I just play by ear, I remember playing the three close black keys in a descending order
-                and thought they sounded cool so I built around that. I started mumbling, writing, listening, and eventually found some chords
-                and the bones of the song began to slowly reveal themselves.
-                Then I went home to put it on the rhodes and had fun after that.
-              </p>
-              <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-              Bella was one of my only friends in school at the time because we were in college in highschool, and luckly I met her that year 
-              through a mutual friend. Bella is quiet, loud, exciting,
-                 talented, beautiful, absolutely brilliant, when she came over to my house to record the song, she came up with the melody and lyrics on the spot.
-                 She writes like a poet because she is a poet. Go look her up, the way she sees the world, the way she makes connections -in a way only she can.
-                 Ever since that day I am inspired by her.
-              </p>
-              <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-              I don't really want to talk much about it, but this song was written during a heartbreak.
-              But now, after some years, when I listen I don't even think about it anymore. I just think about
-              my friendship with Bella and how thankful I am that I got to meet her even though we are 
-              both on our own separate paths for the moment.
-              </p>
-              <br/>
-              <br/>
-              <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-                Maybe one day I'll reach out and make another song with her...
+                This day was one of those days where I needed to stop what I was doing and do something creative, I felt like
+                I had been holding my breath for days and I just needed to exhale to breath fresh air. 
+                This is how I ended up in the practice room.  
+                I cannot read music (yet) so I just play by ear, I remember playing the three close black keys in a descending order
+                and thought it sounded cool so I built around that. I started mumbling, writting, listening, and eventually found some chords
+                and the bones of the song began to slowly reveal itself.
+                After figuring it out on piano I went home to put it on the rhodes and was having fun after that.
+                Bella was one of my only friends in school at the time because we were in college in highschool,
+                talking 
               </p>
           </div>
 

@@ -15,6 +15,9 @@ export default () => {
                 </Image>
             </Link>
         </div>
+        <div className="text-2xl left-5 text-right UrbanistFont.localFont italic">
+            <Link href='https://github.com/alan6333/exhibit6333web' className=" font-extrabold text-yellow-900 hover:text-stone-500 text-xl UrbanistFont.localFont">code</Link>
+        </div>
     </div>
     );
   }
