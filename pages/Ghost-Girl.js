@@ -60,7 +60,7 @@ export default () => {
                 Those practice rooms at school are never my preferred spot for making music because sometimes I can hear other people singing/practicing,
                 which means they can hear me, and I don't like it when people can hear me expirement (though I cannot wait to perform live one day).
                 This day was one of those days where I needed to escape, I felt like
-                I had been holding my breath for days and I just needed to exhale -breath fresh air. 
+                I had been holding my breath for days and I just needed to exhale -breathe fresh air. 
                 And so I ended up in a practice room at around 8AM during class hours.  
                               
                 {/* <Image 
@@ -90,7 +90,7 @@ export default () => {
                  Ever since that day I am inspired by her.
               </p>
               <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
-              I don't really want to talk much about it, but this song was written during a heartbreak.
+              I don't really want to go into it, but this song was written during a heartbreak.
               But now, after some years, when I listen I don't even think about it anymore. I just think about
               my friendship with Bella and how thankful I am that I got to meet her even though we are 
               both on our own separate paths for the moment.
@@ -139,7 +139,7 @@ export default () => {
               <p className="text-xl italic UrbanistFont.localFont">Things I'd do just to get closer to you</p>
               <p className="text-xl italic UrbanistFont.localFont">Memories are saved of me & you</p>
               <p className="text-xl italic UrbanistFont.localFont">You do...</p>
-              <p className="text-xl italic UrbanistFont.localFont">Stop before the lines blurred right through...</p>
+              <p className="text-xl italic UrbanistFont.localFont">-stop before the lines blur right through...</p>
               <p className="text-xl italic UrbanistFont.localFont">I'll think of you</p>
           </div>
           <br />
