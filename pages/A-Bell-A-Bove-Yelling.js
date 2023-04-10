@@ -99,6 +99,9 @@ export default () => {
               <p className="text-xl italic UrbanistFont.localFont">Control you nada</p>
               <p className="text-xl italic UrbanistFont.localFont">Your different, not similar not a smidget</p>
               <p className="text-xl italic UrbanistFont.localFont">Took my shoe off & you fit it</p>
+              <p className="text-xl italic UrbanistFont.localFont">Screwed off, & blew off, too much for my head</p>
+              <p className="text-xl italic UrbanistFont.localFont">You know the route cos we're thru it together</p>
+              <p className="text-xl italic UrbanistFont.localFont">Took my shoe off & you fit it</p>
           </div>
 
     </div>

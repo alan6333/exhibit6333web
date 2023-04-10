@@ -58,6 +58,12 @@ export default () => {
               <div className="inline-block py-3 relative text-3xl UrbanistFont.localFont">Lyrics</div>
           </div>
 
+          <div className='block relative text-left mx-10'>
+                <p className="right-3 left-1/3 ml-96 indent-14 text-xl UrbanistFont.localFont">
+                
+                </p>
+          </div>
+
           <div className='block mx-36 pb-60'>
               {/* <p className="relative right-3 text-xl italic UrbanistFont.localFont"></p> */}
               <p className="relative right-3 text-xl italic UrbanistFont.localFont">Verse 1</p>
